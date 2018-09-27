@@ -48,52 +48,52 @@
 </draw_ops>
 
 <draw_ops name="title-text-unfocused">
-<title color="#cfcfcf" x="5" y="(height - title_height) / 2"/>
+<title color="#FFFFFF" x="5" y="(height - title_height) / 2"/>
 </draw_ops>
 
 <draw_ops name="blank">
 </draw_ops>
 
 <draw_ops name="title">
-  <rectangle color="#ffffff" x="0" y="0" width="width" 
+  <rectangle color="#1985DB" x="0" y="0" width="width" 
     height="height" filled="true"/>
-  <line color="#cbccd0" x1="0" y1="0" x2="0" y2="height" 
+  <line color="#1985DB" x1="0" y1="0" x2="0" y2="height" 
     width="1"/>
-  <line color="#cbccd0" x1="0" y1="0" x2="width" y2="0" 
+  <line color="#1985DB" x1="0" y1="0" x2="width" y2="0" 
     width="1"/>
-  <line color="#cbccd0" x1="width - 1" y1="0" x2="width - 1" y2="height" 
+  <line color="#1985DB" x1="width - 1" y1="0" x2="width - 1" y2="height" 
     width="1"/>
 </draw_ops>
 
 <draw_ops name="title-shaded">
-  <rectangle color="#ffffff" x="0" y="0" width="width" 
+  <rectangle color="#1985DB" x="0" y="0" width="width" 
     height="height" filled="true"/>
-  <line color="#cbccd0" x1="0" y1="0" x2="0" y2="height" 
+  <line color="#1985DB" x1="0" y1="0" x2="0" y2="height" 
     width="1"/>
-  <line color="#cbccd0" x1="0" y1="0" x2="width" y2="0" 
+  <line color="#1985DB" x1="0" y1="0" x2="width" y2="0" 
     width="1"/>
-  <line color="#cbccd0" x1="width - 1" y1="0" x2="width - 1" y2="height" 
+  <line color="#1985DB" x1="width - 1" y1="0" x2="width - 1" y2="height" 
     width="1"/>
 </draw_ops>
 
 <draw_ops name="title-unfocused">
-  <rectangle color="#ffffff" x="0" y="0" width="width" 
+  <rectangle color="#1985DB" x="0" y="0" width="width" 
     height="height" filled="true"/>
-  <line color="#cbccd0" x1="0" y1="0" x2="0" y2="height" 
+  <line color="#1985DB" x1="0" y1="0" x2="0" y2="height" 
     width="1"/>
-  <line color="#cbccd0" x1="0" y1="0" x2="width" y2="0" 
+  <line color="#1985DB" x1="0" y1="0" x2="width" y2="0" 
     width="1"/>
-  <line color="#cbccd0" x1="width - 1" y1="0" x2="width - 1" y2="height" 
+  <line color="#1985DB" x1="width - 1" y1="0" x2="width - 1" y2="height" 
     width="1"/>
 </draw_ops>
 
 <draw_ops name="title-max">
-  <rectangle color="#ffffff" x="0" y="0" width="width" 
+  <rectangle color="#1985DB" x="0" y="0" width="width" 
     height="height" filled="true"/>
 </draw_ops>
 
 <draw_ops name="title-max-unfocused">
-  <rectangle color="#ffffff" x="0" y="0" width="width" 
+  <rectangle color="#1985DB" x="0" y="0" width="width" 
     height="height" filled="true"/>
 </draw_ops>
 
@@ -128,67 +128,83 @@
 </draw_ops>
 
 <draw_ops name="button-close-focused">
-  <image filename="close-focused-active.png" x="0" y="0" width="width" height="height"/>
+  <rectangle color="#1E90FF" x="0" y="0" width="width" 
+    height="height" filled="true"/>
+  <image filename="close.png" x="0" y="0" width="width" height="height"/>
 </draw_ops>
 
 <draw_ops name="button-close-unfocused">
-  <image filename="close-focused-normal.png" x="0" y="0" width="width" height="height"/>
+  <image filename="close.png" x="0" y="0" width="width" height="height"/>
 </draw_ops>
 
 <draw_ops name="button-close-blurred">
-  <image filename="close-unfocused-normal.png" x="0" y="0" width="width" height="height"/>
+  <image filename="close.png" x="0" y="0" width="width" height="height"/>
 </draw_ops>
 
 <draw_ops name="button-close-pressed">
-  <image filename="close-focused-pressed.png" x="0" y="0" width="width" height="height"/>
+  <rectangle color="#1E90FF" x="0" y="0" width="width" 
+    height="height" filled="true"/>
+  <image filename="close.png" x="0" y="0" width="width" height="height"/>
 </draw_ops>
 
 <draw_ops name="button-maximize-focused">
-  <image filename="maximize-focused-active.png" x="0" y="0" width="width" height="height"/>
+  <rectangle color="#1E90FF" x="0" y="0" width="width" 
+    height="height" filled="true"/>
+  <image filename="maximize.png" x="0" y="0" width="width" height="height"/>
 </draw_ops>
 
 <draw_ops name="button-maximize-unfocused">
-  <image filename="maximize-focused-normal.png" x="0" y="0" width="width" height="height"/>
+  <image filename="maximize.png" x="0" y="0" width="width" height="height"/>
 </draw_ops>
 
 <draw_ops name="button-maximize-blurred">
-  <image filename="maximize-unfocused-normal.png" x="0" y="0" width="width" height="height"/>
+  <image filename="maximize.png" x="0" y="0" width="width" height="height"/>
 </draw_ops>
 
 <draw_ops name="button-maximize-pressed">
-  <image filename="maximize-focused-pressed.png" x="0"  y="0" width="width" height="height"/>
+  <rectangle color="#1E90FF" x="0" y="0" width="width" 
+    height="height" filled="true"/>
+  <image filename="maximize.png" x="0"  y="0" width="width" height="height"/>
 </draw_ops>
 
 <draw_ops name="button-restore-focused">
-  <image filename="restore-focused-active.png" x="0" y="0" width="width" height="height"/>
+  <rectangle color="#1E90FF" x="0" y="0" width="width" 
+    height="height" filled="true"/>
+  <image filename="restore.png" x="0" y="0" width="width" height="height"/>
 </draw_ops>
 
 <draw_ops name="button-restore-unfocused">
-  <image filename="restore-focused-normal.png" x="0" y="0" width="width" height="height"/>
+  <image filename="restore.png" x="0" y="0" width="width" height="height"/>
 </draw_ops>
 
 <draw_ops name="button-restore-blurred">
-  <image filename="restore-unfocused-normal.png" x="0" y="0" width="width" height="height"/>
+  <image filename="restore.png" x="0" y="0" width="width" height="height"/>
 </draw_ops>
 
 <draw_ops name="button-restore-pressed">
-  <image filename="restore-focused-pressed.png" x="0"  y="0" width="width" height="height"/>
+  <rectangle color="#1E90FF" x="0" y="0" width="width" 
+    height="height" filled="true"/>
+  <image filename="restore.png" x="0"  y="0" width="width" height="height"/>
 </draw_ops>
 
 <draw_ops name="button-minimize-focused">
-  <image filename="minimize-focused-active.png" x="0" y="0" width="width" height="height"/>
+  <rectangle color="#1E90FF" x="0" y="0" width="width" 
+    height="height" filled="true"/>
+  <image filename="minimize.png" x="0" y="0" width="width" height="height"/>
 </draw_ops>
 
 <draw_ops name="button-minimize-unfocused">
-  <image filename="minimize-focused-normal.png" x="0" y="0" width="width" height="height"/>
+  <image filename="minimize.png" x="0" y="0" width="width" height="height"/>
 </draw_ops>
 
 <draw_ops name="button-minimize-blurred">
-  <image filename="minimize-unfocused-normal.png" x="0" y="0" width="width" height="height"/>
+  <image filename="minimize.png" x="0" y="0" width="width" height="height"/>
 </draw_ops>
 
 <draw_ops name="button-minimize-pressed">
-  <image filename="minimize-focused-pressed.png" x="0" y="0" width="width" height="height"/>
+  <rectangle color="#1E90FF" x="0" y="0" width="width" 
+    height="height" filled="true"/>
+  <image filename="minimize.png" x="0" y="0" width="width" height="height"/>
 </draw_ops>
 
 

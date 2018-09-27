@@ -1,3 +1,7 @@
+常用颜色值：
+background-color: #1985DB;
+background-color: #1E90FF;
+
 # Windows 10 Transformation Pack
 
 Repository hosting the Windows 10 GTK, Icon and Metacity themes. This Work aims to provide the closest imitation of Microsoft's Windows 10 appearance, while making itself available to the most Desktop Environments. For a complete compatibility list, visit the [theme's webpage](http://b00merang.weebly.com/windows-10-transformation-pack.html)
@@ -12,7 +16,7 @@ Repository hosting the Windows 10 GTK, Icon and Metacity themes. This Work aims 
 
 **License :** GPL v3
 
-For the moment, this theme works with the following Desktop environments : 
+For the moment, this theme works with the following Desktop environments :
 - Cinnamon 2.4/2.6/2.8/3.0/3.2
 - GNOME-SHELL 3.14/3.16/3.18/3.20/3.22
 - XFCE 4.x
