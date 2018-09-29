@@ -1,7 +1,8 @@
+#概述
 常用颜色值：
 background-color: #1985DB;
 background-color: #1E90FF;
-
+win10icon为图标，请移动到~/.icons目录下
 # Windows 10 Transformation Pack
 
 Repository hosting the Windows 10 GTK, Icon and Metacity themes. This Work aims to provide the closest imitation of Microsoft's Windows 10 appearance, while making itself available to the most Desktop Environments. For a complete compatibility list, visit the [theme's webpage](http://b00merang.weebly.com/windows-10-transformation-pack.html)
